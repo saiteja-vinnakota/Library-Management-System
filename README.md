@@ -1,18 +1,29 @@
-## Getting Started
+# Library Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple **Library Management System** to manage books, users, and transactions. This system allows librarians to add new books, manage users, and track the borrowing and returning of books.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- **Book Management**: Add, update, and remove books
+- **Transaction Management**: Keep track of books borrowed and returned by users.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies Used
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Java** for the backend logic.
+- **MySQL** for the database to store books
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Prerequisites
 
-## Dependency Management
+Before running the project, ensure that you have the following installed:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Java 8+**
+- **MySQL**
+- **MySQL Connector/J** (for MySQL database connection)
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/saiteja-vinnakota/Library-Management-System.git
+cd Library-Management-System
